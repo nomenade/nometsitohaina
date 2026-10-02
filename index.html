@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Razafindramanitra Nometsitohaina — Développeur Full-Stack</title>
+<meta name="description" content="Portfolio de Razafindramanitra Nometsitohaina, développeur full-stack PHP/Laravel, Python/Django, React.js & Next.js, bases de données MongoDB/PostgreSQL/MySQL, WordPress & IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#accueil" class="nav-logo">
+      <span class="nav-logo-mark">N.</span>RAZAFINDRAMANITRA
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#accueil" data-num="01">Accueil</a>
+      <a href="#apropos" data-num="02">À propos</a>
+      <a href="#competences" data-num="03">Compétences</a>
+      <a href="#parcours" data-num="04">Parcours</a>
+      <a href="#services" data-num="05">Services</a>
+      <a href="#projets" data-num="06">Projets</a>
+      <a href="#contact" data-num="07">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== HERO — TITLE BLOCK ===== -->
+  <section class="hero" id="accueil">
+    <div class="corner corner-tl" aria-hidden="true"><span></span></div>
+    <div class="corner corner-tr" aria-hidden="true"><span></span></div>
+    <div class="corner corner-bl" aria-hidden="true"><span></span></div>
+    <div class="corner corner-br" aria-hidden="true"><span></span></div>
+
+    <div class="hero-inner">
+      <p class="eyebrow reveal">
+        <span class="eyebrow-dot"></span> Dossier N°2026 — Développeur Full-Stack
+      </p>
+
+      <h1 class="hero-title reveal">
+        <span class="line" style="--d:0">RAZAFINDRAMANITRA</span>
+        <span class="line accent" style="--d:1">NOMETSITOHAINA</span>
+      </h1>
+         
+      <div class="homme_image">
+        <img class="nomena_image" src="noums.jpg" alt="mon image">
+      </div>
+
+      <p class="hero-sub reveal" style="--d:2">
+        Je conçois et construis des applications web sur-mesure,
+        du plan à la mise en production — <span class="mono">PHP / Laravel</span>,
+        <span class="mono">Python / Django</span> côté serveur,
+        <span class="mono">React.js / Next.js</span> côté interface,
+        avec <span class="mono">MongoDB</span>, <span class="mono">PostgreSQL</span>
+        et <span class="mono">MySQL</span> pour les données — plus
+        <span class="mono">WordPress</span> et l'<span class="mono">IA</span>.
+      </p>
+
+      <div class="hero-actions reveal" style="--d:3">
+        <a href="#contact" class="btn btn-primary">Me contacter</a>
+        <a href="#competences" class="btn btn-ghost">Voir les compétences</a>
+      </div>
+    </div>
+
+    <!-- Title block, engineering drawing style -->
+    <div class="title-block reveal" style="--d:4">
+      <div class="tb-row tb-head">
+        <span>FICHE PROFESSIONNELLE</span>
+        <span>ÉCH. 1:1</span>
+      </div>
+      <div class="tb-row">
+        <span class="tb-label">Projet</span>
+        <span class="tb-value">Portfolio — Développement Web</span>
+      </div>
+      <div class="tb-row">
+        <span class="tb-label">Statut</span>
+        <span class="tb-value">Licence 2024–2025 · Master I 2025–2026</span>
+      </div>
+      <div class="tb-row">
+        <span class="tb-label">Localisation</span>
+        <span class="tb-value">Ambatomaro, Antananarivo</span>
+      </div>
+      <div class="tb-row tb-stamp">
+        <span class="stamp">DISPONIBLE</span>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true"><span></span>défiler</div>
+  </section>
+
+  <!-- ===== A PROPOS ===== -->
+  <section class="section" id="apropos">
+    <p class="section-eyebrow reveal">02 — À propos</p>
+    <div class="about-grid">
+      <h2 class="section-title reveal">
+        Construire des outils utiles, avec rigueur et méthode.
+      </h2>
+      <div class="about-text reveal">
+        <p>
+          Je m'appelle <strong>Razafindramanitra Nometsitohaina</strong>. Actuellement en
+          <strong>Master I</strong> (année 2025–2026), après une <strong>Licence</strong> obtenue en
+          2024–2025, je développe des applications web complètes : de la base de données
+          jusqu'à l'interface utilisateur.
+        </p>
+        <p>
+          J'aime comprendre un besoin avant de coder, structurer mon travail comme un plan
+          d'exécution, et livrer des interfaces claires autant que du code propre.
+        </p>
+        <div class="badges">
+          <span class="badge">Dynamique</span>
+          <span class="badge">Responsable</span>
+          <span class="badge">Sérieux</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPETENCES ===== -->
+  <section class="section section-alt" id="competences">
+    <p class="section-eyebrow reveal">03 — Compétences</p>
+    <h2 class="section-title reveal">Stack technique</h2>
+
+    <div class="skills-categories">
+
+      <!-- Frontend : chaque compétence affiche un pourcentage -->
+      <div class="skills-category reveal">
+        <h3 class="skills-category-title">Frontend</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-bar"><span style="--w:85%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-name">React.js</span>
+            </div>
+            <div class="skill-bar"><span style="--w:85%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-name">Next.js</span>
+            </div>
+            <div class="skill-bar"><span style="--w:80%"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend : chaque compétence affiche un pourcentage -->
+      <div class="skills-category reveal">
+        <h3 class="skills-category-title">Backend</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-name">PHP</span>
+            </div>
+            <div class="skill-bar"><span style="--w:80%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-name">Python</span>
+            </div>
+            <div class="skill-bar"><span style="--w:90%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-name">Laravel</span>
+            </div>
+            <div class="skill-bar"><span style="--w:80%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-head">
+              <span class="skill-name">Django</span>
+            </div>
+            <div class="skill-bar"><span style="--w:85%"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bases de données -->
+      <div class="skills-category reveal">
+        <h3 class="skills-category-title">Bases de données</h3>
+        <div class="skills-grid">
+          <div class="skill-card no-bar">
+            <div class="skill-head">
+              <span class="skill-name">MySQL</span>
+            </div>
+          </div>
+
+          <div class="skill-card no-bar">
+            <div class="skill-head">
+              <span class="skill-name">PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="skill-card no-bar">
+            <div class="skill-head">
+              <span class="skill-name">MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Intelligence Artificielle -->
+      <div class="skills-category reveal">
+        <h3 class="skills-category-title">IA</h3>
+        <div class="skills-grid">
+          <div class="skill-card no-bar">
+            <div class="skill-head">
+              <span class="skill-name">Intelligence Artificielle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CMS -->
+      <div class="skills-category reveal">
+        <h3 class="skills-category-title">CMS</h3>
+        <div class="skills-grid">
+          <div class="skill-card no-bar">
+            <div class="skill-head">
+              <span class="skill-name">WordPress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PARCOURS ===== -->
+  <section class="section" id="parcours">
+    <p class="section-eyebrow reveal">04 — Parcours</p>
+    <h2 class="section-title reveal">Ligne du temps académique</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2024 — 2025</span>
+          <h3>Licence</h3>
+          <p>Formation en développement informatique — bases solides en programmation,
+          bases de données et conception logicielle.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2025 — 2026</span>
+          <h3>Master I <span class="timeline-current">CNTEMAD</span></h3>
+          <p>Approfondissement des architectures web modernes et des pratiques
+          professionnelles de développement full-stack.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section section-alt" id="services">
+    <p class="section-eyebrow reveal">05 — Services</p>
+    <h2 class="section-title reveal">Ce que je peux construire</h2>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <span class="service-icon" aria-hidden="true">&lt;/&gt;</span>
+        <h3>Applications web sur-mesure</h3>
+        <p>Sites et applications complètes avec Laravel ou Django, du modèle
+        de données jusqu'au déploiement.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-icon" aria-hidden="true">⌘</span>
+        <h3>Interfaces modernes</h3>
+        <p>Interfaces réactives et rapides avec React.js et Next.js,
+        pensées pour l'expérience utilisateur.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-icon" aria-hidden="true">⚙</span>
+        <h3>API &amp; intégrations</h3>
+        <p>Conception d'API REST, connexion de services tiers et
+        maintenance d'applications existantes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETS ===== -->
+  <section class="section" id="projets">
+    <p class="section-eyebrow reveal">06 — Projets</p>
+    <h2 class="section-title reveal">Réalisations récentes</h2>
+
+    <div class="projects-grid">
+      <article class="project-card reveal">
+        <div class="project-media">
+          <div class="project-shot" aria-hidden="true">
+            <div class="project-shot-bar">
+              <span class="project-shot-dot"></span>
+              <span class="project-shot-dot"></span>
+              <span class="project-shot-dot"></span>
+              <span class="project-shot-url">fiarovana-fiompiana.onrender.com</span>
+            </div>
+            <div class="project-shot-body">
+              <span class="project-shot-line" style="--w:100%"></span>
+              <span class="project-shot-line" style="--w:82%"></span>
+              <span class="project-shot-line" style="--w:64%"></span>
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-eyebrow-row">
+            <span>Projet — Web</span>
+            <span class="project-status">En ligne</span>
+          </div>
+          <h3 class="project-title">Fiarovana Fiompiana</h3>
+          <p class="project-desc">
+            Plateforme dédiée à l'élevage à Madagascar : centraliser et suivre les
+            données de la ferme dans une application web accessible partout,
+            pensée pour le contexte local.
+          </p>
+          <div class="project-actions">
+            <a href="https://fiarovana-fiompiana.onrender.com/" class="btn btn-primary"
+              target="_blank" rel="noopener">Voir le projet</a>
+            <a href="https://fiarovana-fiompiana.onrender.com/" class="project-link"
+              target="_blank" rel="noopener">fiarovana-fiompiana.onrender.com</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <p class="section-eyebrow reveal">07 — Contact</p>
+    <h2 class="section-title reveal">Discutons de votre projet</h2>
+
+    <div class="contact-grid">
+      <div class="contact-stamp reveal">
+        <div class="stamp-box">
+          <p class="stamp-title">FICHE CONTACT</p>
+          <ul class="stamp-list">
+            <li><span>Téléphone</span><a href="tel:+261385395421">+261 38 53 954 21</a></li>
+            <li><span>Email</span><a href="mailto:nomenarz21@gmail.com">nomenarz21@gmail.com</a></li>
+            <li><span>WatsApp</span><a href="#">038 53 954 21</a></li>
+             <li><span>Instagram</span><a href="#">nometsitohainarz</a></li>
+
+
+            <li><span>Adresse</span><span><a href="#">  Lot II G 15 AD, Ambatomaro </a></span></li>
+          </ul>
+          <p class="stamp-footer">APPROUVÉ POUR COLLABORATION</p>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/xjybnnpa" method="POST">
+        <div class="form-row">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" required placeholder="Votre nom">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="vous@exemple.com">
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Envoyer le message</button>
+        <p class="form-note" id="formNote" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Razafindramanitra Nometsitohaina — Développeur Full-Stack</p>
+  <a href="#accueil" class="back-top">↑ Haut de page</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
